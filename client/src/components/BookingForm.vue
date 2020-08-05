@@ -23,7 +23,7 @@ export default {
         return {
             name: '',
             email: '',
-            checkedIn: ''
+            checkedIn: false,
         }
     },
     methods: {
