@@ -1,6 +1,6 @@
 <template>
-      <ul>
-      <booking-list-item v-for="(booking, index) in bookings" :key="index"></booking-list-item>
+      <ul v-if="bookings">
+      <booking-list-item v-for="(booking, index) in bookings" :key="index" :booking="booking"></booking-list-item>
       </ul>
 </template>
 
